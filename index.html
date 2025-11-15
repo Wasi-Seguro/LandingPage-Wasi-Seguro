@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasi Seguro</title>
+    <link rel="icon" type="image/png" href="public/assets/images/logo.png">
+    <link rel="apple-touch-icon" href="public/assets/images/logo.png">
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="stylesheet" href="public/assets/styles/styles.css">
+</head>
+<body>
+    <div class="intro-overlay" id="intro">
+        <div class="intro-content">
+            <div class="logo-container" style="margin-bottom: 40px;">
+                    <img src="public/assets/images/logo.png" style="width: 250px; height: auto;">
+                        </div>
+                        <div class="intro-loader">
+                        <div class="loader-bar"></div>
+                 </div>
+            </div>
+        </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="public/assets/images/logo.png" alt="Wasi Seguro Logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#afiliados" class="nav-link">Afiliados</a></li>
+                <li class="language-selector">
+                    <button class="language-btn" id="languageBtn">
+                        <span class="flag"><img src="public/assets/images/icons/español-logo.png" alt="ES"></span>
+                        <span id="currentLang">Español</span>
+                        <span class="arrow">▼</span>
+                    </button>
+                    <ul class="language-dropdown" id="languageDropdown">
+                        <li><a href="#" data-lang="es"><span class="flag"><img src="public/assets/images/icons/español-logo.png" alt="ES"></span> Español</a></li>
+                        <li><a href="#" data-lang="en"><span class="flag"><img src="public/assets/images/icons/ingles-logo.png" alt="GB"></span> English</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="public/assets/images/video-fondo.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">WASI SEGURO</h1>
+            <p class="hero-subtitle">Tu seguridad nuestra prioridad, tu vida primordial,<br>viaja seguro viaja con Wasi Seguro</p>
+            <div class="hero-path"></div>
+        </div>
+    </section>
+
+    <section class="features" id="dudas">
+        <div class="container">
+            <h2 class="section-title">¿Tienes duda si tu ruta es segura?</h2>
+            <p class="section-subtitle">Encuentra la ruta mas segura y mas corta</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-rutas.png" alt="Rutas Verificadas" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Rutas Verificadas</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-alertas.png" alt="Alertas" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Alertas en tiempo real</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-comunidad.png" alt="Comunidad" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Comunidad segura</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-section" id="afiliados">
+        <div class="container">
+            <h2 class="section-title">¿Quieres formar parte de Wasi Seguro?</h2>
+            <p class="section-subtitle">Encuentra la ruta mas segura y mas corta</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-aliado.png" alt="Se Aliado" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Se Aliado</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-equipo.png" alt="Únete al equipo" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Unete al equipo</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="public/assets/images/icons/icono-colabora.png" alt="Colabora" style="width: 60px; height: 60px;">
+                    </div>
+                    <h3 class="feature-title">Colabora</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="nosotros">
+        <div class="container">
+            <h2 class="section-title">Nuestro equipo</h2>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/edgar.jpg" alt="Edgar Obregon">
+                    </div>
+                    <h3 class="team-name">Edgar Obregon</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/enrique.jpg" alt="Enrique Ochoa">
+                    </div>
+                    <h3 class="team-name">Enrique Ochoa</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/fabian.jpg" alt="Fabian Astulle">
+                    </div>
+                    <h3 class="team-name">Fabian Astulle</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/leonardo.jpg" alt="Leonardo Cumba">
+                    </div>
+                    <h3 class="team-name">Leonardo Cumba</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/yam.jpg" alt="Yam Cano">
+                    </div>
+                    <h3 class="team-name">Yam Cano</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/leo.jpg" alt="Leo Yañez">
+                    </div>
+                    <h3 class="team-name">Leo Yañez</h3>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-photo">
+                        <img src="public/assets/images/team/mathias.jpg" alt="Mathias Suarez">
+                    </div>
+                    <h3 class="team-name">Mathias Suarez</h3>
+                </div>
+            </div>
+
+            <div class="team-description">
+                <div class="team-image">
+                    <img src="public/assets/images/team-meeting.jpg" alt="Equipo trabajando">
+                </div>
+                <div class="team-text">
+                    <p><strong>Un equipo apasionado por la seguridad y tecnología.</strong> Desarrollamos soluciones innovadoras para ayudarte ha llegar mucho mas rápido y seguro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contactanos</h2>
+            
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        class="form-control"
+                        required
+                        minlength="3"
+                        maxlength="100"
+                    >
+                    <span class="error-message" id="nombreError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electronico</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="form-control"
+                        required
+                    >
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input 
+                        type="tel" 
+                        id="telefono" 
+                        name="telefono" 
+                        class="form-control"
+                        required
+                        pattern="[0-9]{9}"
+                        maxlength="9"
+                    >
+                    <span class="error-message" id="telefonoError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <textarea 
+                        id="asunto" 
+                        name="asunto" 
+                        class="form-control"
+                        rows="5"
+                        required
+                        minlength="10"
+                        maxlength="500"
+                    ></textarea>
+                    <span class="error-message" id="asuntoError"></span>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="public/assets/images/logo.png" alt="Wasi Seguro">
+                </div>
+
+                <div class="footer-info">
+                    <p><strong>Email:</strong> wasiseguro@gmail.com</p>
+                    <p><strong>Dirección:</strong> Av. Iascuardas 123</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#politica">Política de privacidad</a></li>
+                        <li><a href="#preguntas">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" aria-label="Facebook">
+                            <img src="public/assets/images/face-logo.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram">
+                            <img src="public/assets/images/ig-logo.png" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-icon twitter" aria-label="Twitter">
+                            <img src="public/assets/images/x-logo.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('load', function() {
+            const intro = document.getElementById('intro');
+            const body = document.body;
+            
+            body.style.overflow = 'hidden';
+            
+            setTimeout(function() {
+                intro.style.display = 'none';
+                body.style.overflow = 'auto';
+                window.scrollTo(0, 0);
+            }, 3800);
+        });
+        
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
+    
+    <script src="public/assets/scripts/main.js"></script>
+</body>
+</html>
