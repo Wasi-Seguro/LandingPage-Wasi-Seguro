@@ -10,7 +10,7 @@ WasiSeguro es una solución digital enfocada en mejorar la seguridad urbana medi
 - Enrique Ochoa
 - Leo Yañez
 - Leonardo Cumba
-- Fabián Astulle
+- Fabian Astulle
 - Yam Cano
 - Mathias Suárez
 
@@ -24,4 +24,5 @@ WasiSeguro es una solución digital enfocada en mejorar la seguridad urbana medi
 - **Mapa Interactuable de Riesgo**: Visualización actualizada de zonas con diferentes niveles de seguridad.
 - **Rutas Seguras**: Cálculo de trayectos con estimación de costo por desvío.
 - **Alertas Verificables**: Sistema de notificaciones validadas sobre incidentes.
+
 - **Reportes Ciudadanos**: Plataforma colaborativa para reportar incidencias de seguridad.
